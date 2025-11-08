@@ -1,3 +1,6 @@
+<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD025 -->
+
 # Watcher: Purpose & Description
 
 ## Purpose
