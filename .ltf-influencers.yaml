@@ -2,7 +2,7 @@
 
 project:
   name: "ai-thought-capture"
-  mnemonic: "atc"  # AI Thought Capture
+  mnemonic: "atc" # AI Thought Capture
   type: "app"
   repo: "https://github.com/cashmy/living-task-framework"
   branch: "main"
@@ -14,34 +14,25 @@ influencers:
     - "projects/ai-thought-capture/Concept.md"
     - "projects/ai-thought-capture/Problem_description.md"
     - "projects/ai-thought-capture/Brand_Analysis.md"
-  
+
   # Architecture & design
   architecture:
     - "projects/ai-thought-capture/architecture/architecture_diagram.md"
-  
+
   # Project planning
   planning:
     - "projects/ai-thought-capture/High_Level_Tasks.md"
     - "projects/ai-thought-capture/Actual Steps.md"
     - "projects/ai-thought-capture/Current CIP.md"
-  
+
   # Technical documentation
   technical:
-    - "projects/ai-thought-capture/watcher/README.md"
     - "projects/ai-thought-capture/docs/watcher_PURPOSE.md"
-  
-  # Core implementation (Python watcher)
-  core_modules:
-    - "projects/ai-thought-capture/watcher/watcher.py"
-    - "projects/ai-thought-capture/watcher/watcher_core.py"
-    - "projects/ai-thought-capture/watcher/stt_stub.py"
+    - "projects/ai-thought-capture/NOTE_echo_forge.md"
 
 auto_detect:
   enabled: true
   rules:
-    - pattern: "watcher/**/*.py"
-      category: "watcher_code"
-      priority: high
     - pattern: "docs/**/*.md"
       category: "documentation"
       priority: medium

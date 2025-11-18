@@ -1,2 +1,0 @@
-watchdog>=2.1.9
-pytest>=7.0.0

@@ -3,6 +3,8 @@
 
 # Watcher: Purpose & Description
 
+> **Relocation note**: The live watcher implementation now resides under `projects/echo_forge/watcher/`. Use this document for historical intent and requirements, then edit the EchoForge source when changing code or configs.
+
 ## Purpose
 
 The Watcher is a lightweight, Windows-first service whose job is to reliably detect new voice recordings dropped into an "Ideas/Inbox" folder and hand them off to the processing pipeline. It is the single, minimal piece of infrastructure required to bridge physical/audio capture (hardware or phone) and the AI processing stages (STT → summarize → classify → task generation).
